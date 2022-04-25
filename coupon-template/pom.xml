@@ -9,11 +9,13 @@
         <relativePath/>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>coupon-common</artifactId>
-    <version>${coupon.version}</version>
+    <description>优惠券模版</description>
+    <artifactId>coupon-template</artifactId>
     <packaging>pom</packaging>
-    <description>公共类的pom</description>
-    <properties>
+    <modules>
+        <module>coupon-template-api</module>
+        <module>coupon-template-biz</module>
+    </modules>
 
-    </properties>
+
 </project>

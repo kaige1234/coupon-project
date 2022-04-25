@@ -3,17 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>coupon-project</artifactId>
+        <artifactId>coupon-template</artifactId>
         <groupId>org.example</groupId>
         <version>1.0.0</version>
-        <relativePath/>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>coupon-common</artifactId>
-    <version>${coupon.version}</version>
-    <packaging>pom</packaging>
-    <description>公共类的pom</description>
-    <properties>
+    <description>优惠券模版代码模块</description>
+    <artifactId>coupon-template-biz</artifactId>
+    <packaging>jar</packaging>
+    <properties></properties>
+    <dependencies>
 
-    </properties>
+    </dependencies>
+
 </project>

@@ -6,15 +6,18 @@
     <groupId>org.example</groupId>
     <artifactId>coupon-project</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>${coupon.version}</version>
     <modules>
         <module>coupon-common</module>
         <module>coupon-getway</module>
         <module>coupon-common/coupon-common-swagger</module>
         <module>coupon-common/coupon-common-pom</module>
+        <module>coupon-cloud-dependencies-parent</module>
+        <module>coupon-template</module>
     </modules>
 
     <properties>
+        <coupon.version>1.0.0</coupon.version>
         <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
         <spring-boot.version>2.6.7</spring-boot.version>
         <spring-boot-admin.version>2.3.0</spring-boot-admin.version>
@@ -72,15 +75,15 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--pigx 公共版本定义-->
-<!--            <dependency>-->
-<!--                <groupId>com.pig4cloud</groupId>-->
-<!--                <artifactId>pigx-common-bom</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--                <type>pom</type>-->
-<!--                <scope>import</scope>-->
-<!--            </dependency>-->
-            <!--spring boot 公共版本定义-->
+
+            <dependency>
+                <groupId>org.example</groupId>
+                <artifactId>coupon-common-pom</artifactId>
+                <version>${coupon.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>

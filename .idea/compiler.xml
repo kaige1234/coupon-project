@@ -7,13 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="coupon-getway" />
+        <module name="coupon-template-api1" />
         <module name="coupon-common-swagger" />
-        <module name="coupon-common-pom" />
-        <module name="coupon-common" />
+        <module name="coupon-template-api" />
+        <module name="coupon-template-biz" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="coupon-common-swgger" target="1.5" />
+      <module name="coupon-template-api1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
