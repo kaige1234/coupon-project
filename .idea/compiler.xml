@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="coupon-getway" />
+        <module name="codegen" />
         <module name="coupon-template-api1" />
         <module name="coupon-common-swagger" />
-        <module name="coupon-template-api" />
         <module name="coupon-template-biz" />
+        <module name="coupon-getway" />
+        <module name="coupon-template-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

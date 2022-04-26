@@ -14,6 +14,8 @@
         <module>coupon-common/coupon-common-pom</module>
         <module>coupon-cloud-dependencies-parent</module>
         <module>coupon-template</module>
+        <module>coupon-visual</module>
+        <module>coupon-visual/codegen</module>
     </modules>
 
     <properties>
